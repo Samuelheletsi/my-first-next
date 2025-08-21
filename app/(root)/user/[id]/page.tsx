@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import Image from "next/image";
-import { auth } from "@/auth"; 
+import { auth } from "@/app/auth";
 import { AUTHOR_BY_ID_QUERY } from "@/sanity/lib/queries";
 import { notFound } from "next/navigation";
 import UserStartups from "@/components/UserStartups";
